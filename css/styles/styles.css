@@ -1,0 +1,336 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+/* End Font */
+
+/*Start Body*/
+body{
+    background-color:white;
+    background-image:url(../../images/pattern-background.jpg);
+    font-family: Roboto,Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
+
+/*Start Debug*/
+.bg-blue{
+    width: 100%;
+    height: 200px #ADD8E6;
+    background-color:rgb(242, 245, 236);
+    }
+/* Start Debug*/
+.bg-red{
+    background-color:#ffffff;
+}
+/* End Debug*/
+/* Start Container */
+.container{
+    Margin: 0px auto;
+    width: 90%
+}
+
+.container-full{
+    Margin: 10px auto;
+    overflow: auto;
+    width: 90%   
+}
+/*End Container*/
+
+/* Start logo */
+.logo {
+    text-align: center;
+}
+/* End logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover,
+a:visited{
+  color: #000000;
+  text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+.logo-header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* Start Menu Primer */
+.menu-primer ul{
+    margin-top: 0px;
+    background-color: #90EE90;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0,.2),
+        0 6px 10px 0 rgba(0, 0, 0,.14),
+        0 1px 18px 0 rgba(0, 0, 0,.12);
+}
+.menu-primer li{
+    border-right: 1px solid #000000;
+    display: inline-bloc;
+    margin: 0-4px;
+}
+
+.menu-primer a{
+    color: #000000;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #A52A2A;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu primer .active{
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+/* End Menu Primer */
+
+
+
+/* Start effect */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1530 {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 30%;
+  max-width: 30%;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.snip1530 *,
+.snip1530 *:before,
+.snip1530 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1530:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  content: '';
+  background-color: #ffffff;
+  opacity: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1530 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1530 .icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snip1530 a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.snip1530 a i {
+  display: block;
+  font-size: 23.52941176px;
+  line-height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+}
+
+.snip1530 a i:hover {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.snip1530:hover:before,
+.snip1530.hover:before {
+  opacity: 0.5;
+}
+
+.snip1530:hover a,
+.snip1530.hover a {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1530:hover a:nth-child(2),
+.snip1530.hover a:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.snip1530:hover a:nth-child(3),
+.snip1530.hover a:nth-child(3) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+/* End effect */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6{
+font-weight: 400;
+letter-spacing: 1px;
+}
+h1{
+  font-size: 28;
+}
+h2{
+  font-size: 24;
+}
+h3{
+  font-size: 18;
+}
+h4{
+  font-size: 16;
+}
+h5{
+  font-size: 14;
+}
+h6{
+  font-size: 13;
+}    
+/* End Heading */
+
+/* Start Jumbothon */
+.jumbothorn{
+  background-color: #f6f8fa;
+  border: 1px solid #caecef;
+  border-radius: 4px;
+  padding: 20px 0;
+}
+.jumbotron h1 {
+  font-size: 32px;
+  padding: 0 20px;
+}
+.jumbotron h3 {
+  font-size: 20px;
+  padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+  .main-home-one{
+    float: left;
+    width: 49.5%;
+  }
+.main-home-two{
+  float: right;
+  width: 49.5%;
+}
+.main-home-one .box-isi
+.main-home-two .box-isi{
+  height: 140px;
+}
+/* End Main */
+
+/* Start box */
+.box-heading{
+  background-color: none;
+  border: 1px solid #d1d5da;
+  border-radius: 3px 3px 0 0;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.box-heading{
+  font-size: 14px;
+  margin: 0;
+}
+.box-isi{
+  background-color: none;
+  border: 1px solid;
+  border-top: 0;
+  margin: 0;
+  padding: 0;
+  }
+
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+  border-left: 4px solid
+  margin-left: 3opx;
+  padding-left: 20px;
+  /* End Testimonial */
+}
+/* Start Menu Sekunder */
+.menu-sekunder-one{
+  background-color: none;
+  border-bottom: 1px solid ;
+  border-top: 1px solid;
+  overflow: auto;
+  Padding: 1px 0;
+}
+.menu-sekunder-h4{
+  font-size: 14px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.menu-sekunder-ul{
+  padding: 0;
+}
+.menu-sekunder-li{
+  list-style: disc;
+}
+.menu-sekunder- li a,
+.menu-sekunder- p{
+  font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+  float: left;
+}
+.menu-sekunder-one{
+  width: 40%
+}
+.menu-sekunder-two
+.menu-sekunder three{
+  width: 30%
+}
+.menu-sekunder li img{
+vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p{
+  font-size: 15px;
+}
+/* End Copyright */
