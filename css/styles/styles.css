@@ -287,6 +287,11 @@ h6{
   padding-left: 20px;
   /* End Testimonial */
 }
+/* Start menulist */
+.menulisttengah{
+  text-align: center;
+}
+/* End menulist */
 /* Start Menu Sekunder */
 .menu-sekunder-one{
   background-color: none;
@@ -299,8 +304,8 @@ h6{
   font-size: 14px;
   margin: 0 auto;
   border: 1px solid;
-  border-top: 0;
-  text-transform: uppercase;
+  order-top: 0;
+.text-transform: uppercase;
 }
 .menu-sekunder-ul{
   padding: 0;
@@ -332,6 +337,6 @@ vertical-align: middle;
 
 /* Start Copyright */
 .copyright p{
-  font-size: 15px; left
+  font-size: 15px; left;
 }
 /* End Copyright */
