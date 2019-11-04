@@ -8,7 +8,7 @@ body{
     background-image:url(../../images/pattern-background.jpg);
     font-family: Roboto,Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
 }
@@ -274,8 +274,6 @@ h6{
 }
 .box-isi{
   background-color: none;
-  border: 1px solid;
-  border-top: 0;
   margin: 0;
   padding: 0;
   }
@@ -285,7 +283,7 @@ h6{
 /* Start Testimonial */
 .testimonial {
   border-left: 4px solid
-  margin-left: 3opx;
+  margin-left: 30px;
   padding-left: 20px;
   /* End Testimonial */
 }
@@ -300,6 +298,8 @@ h6{
 .menu-sekunder-h4{
   font-size: 14px;
   margin: 0 auto;
+  border: 1px solid;
+  border-top: 0;
   text-transform: uppercase;
 }
 .menu-sekunder-ul{
@@ -318,11 +318,11 @@ h6{
   float: left;
 }
 .menu-sekunder-one{
-  width: 40%
+  width: 35%
 }
-.menu-sekunder-two
-.menu-sekunder three{
-  width: 30%
+.menu-sekunder-two,
+.menu-sekunder-three{
+  width: 30%;
 }
 .menu-sekunder li img{
 vertical-align: middle;
@@ -331,6 +331,6 @@ vertical-align: middle;
 
 /* Start Copyright */
 .copyright p{
-  font-size: 15px;
+  font-size: 15px; left
 }
 /* End Copyright */
