@@ -318,7 +318,8 @@ h6{
   float: left;
 }
 .menu-sekunder-one{
-  width: 35%
+  width: 35%;
+  border-bottom: none;
 }
 .menu-sekunder-two,
 .menu-sekunder-three{
